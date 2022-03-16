@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ #menu{
+    background-color: rgb(255, 255, 255);
+    color: rgb(155, 155, 155);
+    height: 415px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+    
+}
+#menu header{
+    background-color: white;
+    color: orange;
+    text-align: center;
+    border: 1px solid orange;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+}
+#menu li{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
