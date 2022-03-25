@@ -1,0 +1,9 @@
+<tr>
+  <td>
+    <%= link_to area.nombre, areas_cursos_index_url(area), class:"noblue" %>
+    
+  </td>
+  <td>
+     <%= link_to 'Borrar', { :action => :destroy, :id => area.id }, :method => :delete %>
+  </td>
+</tr>
